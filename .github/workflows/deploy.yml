@@ -17,7 +17,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: 18
+          node-version: 14
+
+      - name: Perbarui npm
+        run: npm install -g npm@latest
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
