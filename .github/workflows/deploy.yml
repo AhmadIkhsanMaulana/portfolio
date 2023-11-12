@@ -15,15 +15,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4  # Menggunakan versi terbaru dari actions/setup-node
         with:
           node-version: 14
 
-      - name: Perbarui npm
-        run: npm install -g npm@latest
-
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm install
 
       - name: Build project
         run: npm run build
