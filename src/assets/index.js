@@ -20,6 +20,7 @@ import laravel from "./tech/laravel.png";
 import salesforce from "./tech/salesforce.png";
 import threejs from "./tech/threejs.svg";
 
+import evermos from "./company/evermos.png";
 import tms from "./company/tms.png";
 import ict from "./company/ict.png";
 import ids from "./company/ids.png";
@@ -27,6 +28,8 @@ import da from "./company/da.jpeg";
 import kurma from "./company/kurma.jpeg";
 import dkr from "./company/dkr.jpeg";
 
+import final from "./final.png";
+import test from "./test.png";
 import goto from "./goto.png";
 import jne from "./jne.jpeg";
 import telin from "./telin.jpeg";
@@ -58,12 +61,15 @@ export {
   apex,
   laravel,
   salesforce,
+  evermos,
   tms,
   ict,
   ids,
   da,
   kurma,
   dkr,
+  final,
+  test,
   goto,
   jne,
   telin,

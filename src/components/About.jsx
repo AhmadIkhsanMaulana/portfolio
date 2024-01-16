@@ -47,12 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        My interest in technology started when I entered a vocational high
-        school and in the beginning I learned HTML/CSS, JavaScript,
-        Database, SQL, Laravel Framework, Salesforce, and Software QA 
-        from there I deepened technology, not only learning technology,
-        I also hone my soft skills by joining several organizations in school.
-        Besides that, I also like to learn new things.
+        The interest in technology began during vocational high school, where a foundation was laid in
+        learning HTML/CSS, JavaScript, and SQL. Deeper exploration into the technology field ensued.
+        Focus was placed not only on acquiring technical knowledge but also on honing soft skills
+        through active participation in various school organizations. Additionally, a passion for
+        continuous learning and exploration of new concepts emerged. Specialization in Software
+        Quality Assurance became a current focus, aspiring to contribute to ensuring optimal product
+        quality. The realization surfaced that in the software development process, it is crucial not only
+        to produce a product that can be quickly deployed but also to ensure alignment with existing
+        requirements and to verify the absence of bugs.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

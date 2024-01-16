@@ -15,9 +15,12 @@ import {
   salesforce,
   git,
   laravel,
+  final,
+  evermos,
   tms,
   ict,
   ids,
+  test,
   goto,
   jne,
   telin,
@@ -117,8 +120,17 @@ const technologies = [
   }
 ];
 
-const experiences = [
-
+const experiences = [  
+  {
+    title: "Project-Based Virtual Intern: Software Quality Assurance",
+    company_name: "Evermos x Rakamin Academy",
+    icon: evermos,
+    iconBg: "#383E56",
+    date: "Dec 2023 - Jan 2024",
+    points: [
+      "Finishing various task related with the activity of Software Quality Assurance from Evermos. Such as SDLC, STLC, Test Scenario/Test Case, Bug Report, QA Fundamental, APIs,Postman, Web Automation, Mobile Automation, Introduction Non-Functional Test, Load Testing use K6, and the final project involves performance testing utilizing K6, encompassing the assessment of an API featuring POST and PUT methods. Additionally, a comprehensive report will be generated as part of the evaluation process.",
+    ],
+  },
   {
     title: "Salesforce Technical",
     company_name: "TMS Consulting",
@@ -159,6 +171,48 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Performance Test Automation k6", 
+    description:
+    "Finishing various task related with the activity of Software Quality Assurance from Evermos. Such as SDLC, STLC, Test Scenario/Test Case, Bug Report, QA Fundamental, APIs,Postman, Web Automation, Mobile Automation, Introduction Non-Functional Test, Load Testing use K6, and the final project involves performance testing utilizing K6, encompassing the assessment of an API featuring POST and PUT methods. Additionally, a comprehensive report will be generated as part of the evaluation process.",
+    tags: [
+      {
+        name: "testcases",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "K6",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: final,
+    source_code_link: "https://drive.google.com/file/d/1tzzWeu6tWOejF0wDI7r2PslLYU5gN6Ak/view?usp=sharing",
+  },
+  {
+    name: "Website and Mobile App Automation Testing",
+    description:
+    "Conducting automation testing for the Luma-Magento web platform based on predefined test cases and Performing automation testing for the Flight mobile application in accordance withestablished test cases.",
+    tags: [
+      {
+        name: "testcases",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cypress.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "robotframework",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: test,
+    source_code_link: "https://github.com/AhmadIkhsanMaulana/Sanber51-Mobile-Automation-Kelompok17",
+  },
   {
     name: "Goto Sales Cloud",
     description:
@@ -305,48 +359,6 @@ const projects = [
     ],
     image: kaang,
     source_code_link: "https://github.com/AhmadIkhsanMaulana/ikhsankaang-lc/",
-  },
-  {
-    name: "Sarlim Digital",
-    description:
-      "Sarlim provides various online reading needs for visitors. We offer various types of reading books that can be accessed on this website.",
-    tags: [
-      {
-        name: "php",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: sarlim,
-    source_code_link: "https://github.com/mlutfiazizan13/sarlim.github.io/",
-  },
-  {
-    name: "Team Food",
-    description:
-      "Team Food is a website that provides explanations of all Indonesian food and drinks in Indonesia.",
-    tags: [
-      {
-        name: "php",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html - css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: food,
-    source_code_link: "https://github.com/AhmadIkhsanMaulana",
   },
 ];
 

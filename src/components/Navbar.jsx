@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const downloadCV = () => {
-    const cvLink = 'https://drive.google.com/file/d/1d-31ACvMmuZwD2gYXt293DDnFEoe75B0/view?usp=drive_link';
+    const cvLink = 'https://drive.google.com/file/d/1opVQdbOflT6Sftpsn-f36L3QtxQ0Gwua/view?usp=sharing';
 
     window.open(cvLink, '_blank');
   };
